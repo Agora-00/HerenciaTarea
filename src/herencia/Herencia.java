@@ -23,7 +23,7 @@ public class Herencia {
         Gato gato = new Gato(4, 2, "Macho", "Felino", "Egipcio", "Rufus", 4, true);
         System.out.println(gato);
         
-        Perro perro = new Perro("Chihuahua", "Vertebrados", true, .56f, 4, 2, "Hembra", "Caninos");
+        Perro perro = new Perro("Chihuahua", "Vertebrados", true, .56f, 4, 2, "Hembra", "Canino");
         System.out.println(perro);
     }
     

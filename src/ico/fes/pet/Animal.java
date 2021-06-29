@@ -62,8 +62,8 @@ public class Animal {
         return "Animal{" + "numeroPatas=" + numeroPatas + ", numeroDeOjos=" + numeroDeOjos + ", genero=" + genero + ", nombreEspecie=" + nombreEspecie + '}';
     }
     
-    public void hablar (){
-        
+    public void emitiendoSonido (){
+        System.out.println("Emitir sonido");
     }
     
 }

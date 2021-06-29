@@ -17,10 +17,7 @@ public class Gato extends Animal{
 
     public Gato() {
     }
-    public void emitirSonido(){
    
-}
-
     public Gato(String raza, String nombre, int edad, boolean vivo) {
         this.raza = raza;
         this.nombre = nombre;
@@ -77,7 +74,8 @@ public Gato (int numeroPatas, int numeroDeOjos, String genero, String nombreEspe
         return super.toString() + "Gato{" + "raza=" + raza + ", nombre=" + nombre + ", edad=" + edad + ", vivo=" + vivo + '}';
     }
 
-    
-    
+     public void emitirSonido(){
+         System.out.println("Miau");
+}
     
 }

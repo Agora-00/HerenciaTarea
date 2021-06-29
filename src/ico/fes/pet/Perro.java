@@ -64,15 +64,10 @@ public class Perro extends Animal {
     }
     
     public void emitirSonido(){
-        System.out.println("Emitiendo sonido");
+        System.out.println("Guau");
     }
 
-    
-    
-
-    
-
-    
+      
 }
     
     
